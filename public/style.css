@@ -1,0 +1,25 @@
+body { margin: 0; font-family: system-ui, sans-serif; color: #1f2937; background: #fff; }
+header { padding: 16px 24px 0; }
+h1 { margin: 0 0 12px; font-size: 1.1rem; }
+h2 { margin: 0 0 12px; font-size: 1rem; }
+
+nav button { border: 0; background: none; color: #6b7280; padding: 8px 14px; border-radius: 8px; font-size: 0.95rem; cursor: pointer; }
+nav button.active { background: #1f5fbf; color: #fff; }
+#sub-nav { background: #f4f6f8; border-top: 1px solid #d9dde3; padding: 8px 24px 0; }
+#sub-nav:empty { display: none; }
+main { background: #f4f6f8; padding: 16px 24px 32px; min-height: 60vh; }
+
+.card { background: #fff; border: 1px solid #d9dde3; border-radius: 12px; padding: 14px; margin-bottom: 16px; max-width: 900px; }
+label { display: block; margin-top: 10px; font-size: 0.85rem; color: #6b7280; }
+input, select { display: block; width: 100%; max-width: 360px; box-sizing: border-box; padding: 8px; margin-top: 4px; font-size: 0.95rem; border: 1px solid #d9dde3; border-radius: 6px; background: #f4f6f8; }
+form button { margin-top: 14px; background: #1f5fbf; color: #fff; border: 0; border-radius: 8px; padding: 8px 16px; cursor: pointer; }
+
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #e5e7eb; }
+th { color: #6b7280; }
+a { color: #1f5fbf; text-decoration: none; }
+a.delete { color: #b91c1c; }
+
+#message { margin: 0 0 12px; min-height: 1.2em; }
+#message.success { color: #15803d; }
+#message.error { color: #b91c1c; font-weight: 600; }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>University Registrar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>University Registrar</h1>
+    <!-- Main menu: the buttons are wired up in app.js -->
+    <nav id="main-nav" aria-label="Main menu">
+      <button type="button" data-mode="create">Create</button>
+      <button type="button" data-mode="manage">Manage</button>
+      <button type="button" data-mode="transcript">Transcript</button>
+    </nav>
+  </header>
+
+  <nav id="sub-nav" aria-label="Tables"></nav>
+
+  <main>
+    <!-- Loading, success and error messages appear here -->
+    <p id="message" role="status"></p>
+    <section id="content"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
